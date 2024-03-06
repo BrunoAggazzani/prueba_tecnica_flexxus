@@ -1,0 +1,31 @@
+[
+  {
+      "id": 1,
+      "nombre": "HEADSET GAMER HAVIT HV-H2232 D",
+      "codigo": "CODE143706",
+      "precio": 3000,
+      "imagen": "/src/imagenes/imagen1.jpeg"
+  },
+  {
+      "id": 2,
+      "nombre": "HEADSET GAMER CONSTRICTOR",
+      "codigo": "CODE143456",
+      "precio": 2700,
+      "imagen": "/src/imagenes/imagen2.jpeg"
+  },
+  {
+      "id": 3,
+      "nombre": "HEADSET GAMER NOGA STORMER",
+      "codigo": "CODE185756",
+      "precio": 2550,
+      "imagen": "/src/imagenes/imagen3.jpeg"
+  },
+  {
+      "id": 4,
+      "nombre": "MOUSE GAMER STORMER",
+      "codigo": "CODE895432",
+      "precio": 1500,
+      "imagen": "/src/imagenes/imagen4.jpeg"
+  }
+]
+  

@@ -1,0 +1,70 @@
+/* Estilos para la lista de productos */
+.card-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: inherit;
+    width: 100%;
+    min-height: 500px;
+    margin: 6% 0% 2% 0%;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); 
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr; /* Una card por fila en pantallas angostas */
+    }
+}
+
+.card {
+    width: -webkit-fill-available;
+    height: fit-content;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 1;
+    height: 20vh;
+    min-width: 10rem;
+    font-size: smaller;
+    background-color: white;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+    justify-content: center;
+    font-size: smaller;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 0;
+    font-size: smaller;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.esperar{    
+    text-align: center;
+    margin: 5px 0;
+    color: #666;    
+}

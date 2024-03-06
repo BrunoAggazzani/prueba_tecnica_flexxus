@@ -1,0 +1,31 @@
+/* Estilos para la barra de búsqueda */
+.contenedor-barra-busq {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 75vw;
+    border-radius: 5px;
+    padding-top: 3%;
+    margin: 0px;
+}
+
+input {
+    flex: 1;
+    padding: 15.6px;
+    font-size: small;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    padding: 15px 12px;
+    background-color: #383838;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
